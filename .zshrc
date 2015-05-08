@@ -84,7 +84,7 @@ zstyle ':completion:*:*:vim:*' ignored-patterns '*.o'
 setopt autocd
 unsetopt correct_all
 source ~/.dotfiles/z/z.sh
-if [ -f ~/.dotfiles/zsh/privaterc ]
+if [ -f ~/.dotfiles/dotfiles-zsh/privaterc ]
 then
-    source ~/.dotfiles/zsh/privaterc
+    source ~/.dotfiles/dotfiles-zsh/privaterc
 fi
