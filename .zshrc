@@ -83,6 +83,8 @@ zstyle ':completion:*:*:vim:*' ignored-patterns '*.o'
 #alias sublime="/opt/sublime_text/sublime_text"
 setopt autocd
 unsetopt correct_all
-source ~/.dotfiles/z.sh
-
-source ~/.dotfiles/zsh/privaterc
+source ~/.dotfiles/z/z.sh
+if [ -f ~/.dotfiles/zsh/privaterc ]
+then
+    source ~/.dotfiles/zsh/privaterc
+fi
