@@ -12,3 +12,11 @@ else
     cd $HOME
     ln -s $currentpath/.zshrc .zshrc
 fi
+
+if [ -e $HOME/.dotfiles/z ]
+then
+    echo "z script repository already cloned"
+else
+    cd $HOME/.dotfiles/
+    git clone https://github.com/rupa/z.git
+fi
