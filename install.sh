@@ -2,7 +2,6 @@
 
 configpath="$HOME/.zshrc"
 currentpath=$(pwd)
-echo "$currentpath/.zshrc"
 
 echo "zshell installation..."
 if [ -e $configpath ]
